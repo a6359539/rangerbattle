@@ -1,0 +1,136 @@
+m_nInstancingShaders = 1;
+	m_ppInstancingShaders = new CInstancedObjectsShader*[m_nInstancingShaders];
+
+			m_ppInstancingShaders[0] = new CInstancedObjectsShader(xObjects * zObjects);
+			m_ppInstancingShaders[0]->SetMesh(pMeshes[0]);
+			m_ppInstancingShaders[0]->SetMaterial(pInstancingMaterials[3]);
+			m_ppInstancingShaders[0]->BuildObjects(pd3dDevice, NULL);
+			m_ppInstancingShaders[0]->CreateShader(pd3dDevice);
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	m_nInstancingShaders = 6;
+	m_ppInstancingShaders = new CInstancedObjectsShader*[m_nInstancingShaders];
+
+	for (int k = 0; k < m_nInstancingShaders; k++)
+	{
+
+		if (k == 0)
+		{
+			m_ppInstancingShaders[k] = new CInstancedObjectsShader(xObjects * zObjects);
+			m_ppInstancingShaders[k]->SetMesh(pMeshes[k]);
+			m_ppInstancingShaders[k]->SetMaterial(pInstancingMaterials[3]);
+			m_ppInstancingShaders[k]->BuildObjects(pd3dDevice, NULL);
+			m_ppInstancingShaders[k]->CreateShader(pd3dDevice);
+
+		}
+
+		else
+		{
+			m_ppInstancingShaders[k] = new CInstancedObjectsShader(xObjects * zObjects);
+			m_ppInstancingShaders[k]->SetMesh(pMeshes[k]);
+			m_ppInstancingShaders[k]->SetMaterial(pInstancingMaterials[k % 3]);
+			m_ppInstancingShaders[k]->BuildObjects(pd3dDevice, NULL);
+			m_ppInstancingShaders[k]->CreateShader(pd3dDevice);
+		}
+	}
+
+	D3DXVECTOR3 d3dxvRotateAxis;
+	CRotatingObject *pRotatingObject = NULL;
+
+	for (int k = 0; k < 3; k++)
+	{
+		float xStart = k * fxPitch;
+		float zStart = k * fzPitch;
+		for (int i = 0, x = 0; x < xObjects; x++)
+		{
+			float xPosition = xStart + (x * fxPitch * 3.0f);
+			for (int z = 0; z < zObjects; z++, i++)
+			{
+				float zPosition = zStart + (z * fzPitch * 3.0f);
+				float fHeight = pTerrain->GetHeight(xPosition, zPosition);
+
+				pRotatingObject = new CRotatingObject();
+				pRotatingObject->SetMesh(pMeshes[k * 2]);
+				pRotatingObject->SetPosition(xPosition, fHeight + 6.0f, zPosition);
+				D3DXVECTOR3 d3dxvSurfaceNormal = pTerrain->GetNormal(xPosition, zPosition);
+				D3DXVec3Cross(&d3dxvRotateAxis, &D3DXVECTOR3(0.0f, 1.0f, 0.0f), &d3dxvSurfaceNormal);
+				float fAngle = acos(D3DXVec3Dot(&D3DXVECTOR3(0.0f, 1.0f, 0.0f), &d3dxvSurfaceNormal));
+				pRotatingObject->Rotate(&d3dxvRotateAxis, (float)D3DXToDegree(fAngle));
+				pRotatingObject->SetRotationAxis(D3DXVECTOR3(0.0f, 1.0f, 0.0f));
+				pRotatingObject->SetRotationSpeed(18.0f * (i % 10) + 10.0f);
+				m_ppInstancingShaders[k * 2]->AddObject(pRotatingObject);
+
+				pRotatingObject = new CRotatingObject();
+				pRotatingObject->SetMesh(pMeshes[k * 2 + 1]);
+				pRotatingObject->SetPosition(xPosition, fHeight + (fyPitch * 4), zPosition);
+				pRotatingObject->SetRotationAxis(D3DXVECTOR3(0.0f, 1.0f, 0.0f));
+				pRotatingObject->SetRotationSpeed(36.0f * (i % 10) + 36.0f);
+				m_ppInstancingShaders[k * 2 + 1]->AddObject(pRotatingObject);
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+애니메이션  색을 넣어도 (나 , 아군 , 적)
+
+
+
+
+총알 객채생성 
+총알 클릭 했을때 단발 이라고
+
+
+장애물 통과 안되는거
+
+
+
+지형 하이트맵 -> 빌보드로 잔디, 길
+
+
+최소한의 장애물은 있다는 가정 
+
+
+충돌체크 -> 부분충돌체크
+
+
+

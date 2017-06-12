@@ -1,0 +1,5 @@
+﻿  npciocp.cpp
+e:\재활공부\[2016 게임서버 2반 최종발표] 2011180001 강신영\2011180001강신영 게임서버\consoleapplication2\d3dfun.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'D3DX10Math.h': No such file or directory
+  d3dfun.cpp
+e:\재활공부\[2016 게임서버 2반 최종발표] 2011180001 강신영\2011180001강신영 게임서버\consoleapplication2\d3dfun.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'D3DX10Math.h': No such file or directory
+  코드를 생성하고 있습니다...
