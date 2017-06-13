@@ -6,10 +6,7 @@
 class CPlayer : public CAnimationObject
 {
 protected:
-	D3DXVECTOR3					m_d3dxvPosition;
-	D3DXVECTOR3					m_d3dxvRight;
-	D3DXVECTOR3					m_d3dxvUp;
-	D3DXVECTOR3					m_d3dxvLook;
+
 
 	float           			m_fPitch;
 	float           			m_fYaw;
@@ -30,9 +27,13 @@ protected:
 	
 	vector<int>					*m_pbullets;
 public:
+
 	CPlayer(int nMeshes = 1);
 	virtual ~CPlayer();
-
+	D3DXVECTOR3					m_d3dxvPosition;
+	D3DXVECTOR3					m_d3dxvRight;
+	D3DXVECTOR3					m_d3dxvUp;
+	D3DXVECTOR3					m_d3dxvLook;
 	D3DXVECTOR3 GetPosition() { return(m_d3dxvPosition); }
 	D3DXVECTOR3 GetLookVector() { return(m_d3dxvLook); }
 	D3DXVECTOR3 GetUpVector() { return(m_d3dxvUp); }

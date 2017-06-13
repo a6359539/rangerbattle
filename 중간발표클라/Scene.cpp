@@ -636,7 +636,7 @@ void CScene::BuildObjects(ID3D11Device *pd3dDevice)
 	{
 		pGameObject = new CGameObject();
 		pGameObject->SetMesh(pMeshes[7]);
-		pGameObject->Rotate(0, 180, 0);
+		//pGameObject->Rotate(0, 180, 0);
 		pGameObject->SetPosition(rand() % 2000 - 1000, pTerrain->GetHeight(100, 500) + 10, rand() % 2000 - 1000);
 
 

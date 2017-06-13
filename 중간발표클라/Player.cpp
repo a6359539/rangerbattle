@@ -112,6 +112,7 @@ void CPlayer::Rotate(float x, float y, float z)
 			D3DXMatrixRotationAxis(&mtxRotate, &m_d3dxvUp, (float)D3DXToRadian(y));
 			D3DXVec3TransformNormal(&m_d3dxvLook, &m_d3dxvLook, &mtxRotate);
 			D3DXVec3TransformNormal(&m_d3dxvRight, &m_d3dxvRight, &mtxRotate);
+
 		}
 	}
 	else if (nCurrentCameraMode == SPACESHIP_CAMERA)

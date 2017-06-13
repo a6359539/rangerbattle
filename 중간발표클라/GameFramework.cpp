@@ -492,7 +492,19 @@ void CGameFramework::OnProcessingMouseMessage(HWND hWnd, UINT nMessageID, WPARAM
 				if ((LOWORD(lParam) > d3dViewport.Width / 100 * 73.6&& LOWORD(lParam) < d3dViewport.Width / 100 * 93.12) && (HIWORD(lParam) > d3dViewport.Height / 100 * 71.70 && HIWORD(lParam) < d3dViewport.Height / 100 * 79))
 				{
 					if (mainroom.start == 0)
+					{
 						my_packet.type = CS_gameplay;
+						if (veiwtype)
+						{
+							veiwtype = 0;
+							if (m_pPlayer)
+							{
+								m_pPlayer->ChangeCamera(m_pd3dDevice, THIRD_PERSON_CAMERA, m_GameTimer.GetTimeElapsed());
+								m_pCamera = m_pPlayer->GetCamera();
+								m_pScene->SetCamera(m_pCamera);
+							}
+						}
+					}
 					//my_packet.roomnum = roomindex + (selectroomindex - 1);
 
 					//게임 강제스타트
@@ -546,211 +558,231 @@ void CGameFramework::OnProcessingMouseMessage(HWND hWnd, UINT nMessageID, WPARAM
 				}
 				else if (((LOWORD(lParam) > d3dViewport.Width / 100 * 12.18&& LOWORD(lParam) < d3dViewport.Width / 100 * 48.75) && (HIWORD(lParam) > d3dViewport.Height / 100 * 22.5 && HIWORD(lParam) < d3dViewport.Height / 100 * 30.20)))
 				{
-					if (!mainroom.red[0].active)
-					{
-						send_pack.team = 0;
-						send_pack.type = CS_addAIplayer;
-
-						SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
-						redai = 0;
-					}
-					else
-					{
-						if (mainroom.red[0].id > 4999)
+					if (mainroom.start == false) {
+						if (!mainroom.red[0].active)
 						{
-							send_pack.type = CS_deleteAIplayer;
 							send_pack.team = 0;
-							send_pack.id = mainroom.red[0].id;
+							send_pack.type = CS_addAIplayer;
+
 							SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							redai = 0;
+						}
+						else
+						{
+							if (mainroom.red[0].id > 4999)
+							{
+								send_pack.type = CS_deleteAIplayer;
+								send_pack.team = 0;
+								send_pack.id = mainroom.red[0].id;
+								SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							}
 						}
 					}
 				}
 				else if (((LOWORD(lParam) > d3dViewport.Width / 100 * 51.09&& LOWORD(lParam) < d3dViewport.Width / 100 * 87.5) && (HIWORD(lParam) > d3dViewport.Height / 100 * 22.5 && HIWORD(lParam) < d3dViewport.Height / 100 * 30.20)))
 				{
-					if (!mainroom.blue[0].active)
-					{
-						send_pack.team = 1;
-						send_pack.type = CS_addAIplayer;
-
-						SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
-						blueai = 0;
-					}
-					else
-					{
-						if (mainroom.blue[0].id > 4999)
+					if (mainroom.start == false) {
+						if (!mainroom.blue[0].active)
 						{
-							send_pack.type = CS_deleteAIplayer;
 							send_pack.team = 1;
-							send_pack.id = mainroom.blue[0].id;
+							send_pack.type = CS_addAIplayer;
+
 							SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							blueai = 0;
+						}
+						else
+						{
+							if (mainroom.blue[0].id > 4999)
+							{
+								send_pack.type = CS_deleteAIplayer;
+								send_pack.team = 1;
+								send_pack.id = mainroom.blue[0].id;
+								SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							}
 						}
 					}
 				}
 				else if (((LOWORD(lParam) > d3dViewport.Width / 100 * 12.18&& LOWORD(lParam) < d3dViewport.Width / 100 * 48.75) && (HIWORD(lParam) > d3dViewport.Height / 100 * 32.5&& HIWORD(lParam) < d3dViewport.Height / 100 * 40)))
 				{
-					if (!mainroom.red[1].active)
-					{
-						send_pack.team = 0;
-						send_pack.type = CS_addAIplayer;
-
-						SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
-						redai = 1;
-					}
-					else
-					{
-						if (mainroom.red[1].id > 4999)
+					if (mainroom.start == false) {
+						if (!mainroom.red[1].active)
 						{
-							send_pack.type = CS_deleteAIplayer;
 							send_pack.team = 0;
-							send_pack.id = mainroom.red[1].id;
+							send_pack.type = CS_addAIplayer;
+
 							SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							redai = 1;
+						}
+						else
+						{
+							if (mainroom.red[1].id > 4999)
+							{
+								send_pack.type = CS_deleteAIplayer;
+								send_pack.team = 0;
+								send_pack.id = mainroom.red[1].id;
+								SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							}
 						}
 					}
 				}
 				else if (((LOWORD(lParam) > d3dViewport.Width / 100 * 51.09&& LOWORD(lParam) < d3dViewport.Width / 100 * 87.5) && (HIWORD(lParam) > d3dViewport.Height / 100 * 32.5 && HIWORD(lParam) < d3dViewport.Height / 100 * 40)))
 				{
-					if (!mainroom.blue[1].active)
-					{
-						send_pack.team = 1;
-						send_pack.type = CS_addAIplayer;
-
-						SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
-						blueai = 1;
-					}
-					else
-					{
-						if (mainroom.blue[1].id > 4999)
+					if (mainroom.start == false) {
+						if (!mainroom.blue[1].active)
 						{
-							send_pack.type = CS_deleteAIplayer;
 							send_pack.team = 1;
-							send_pack.id = mainroom.blue[1].id;
+							send_pack.type = CS_addAIplayer;
+
 							SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							blueai = 1;
+						}
+						else
+						{
+							if (mainroom.blue[1].id > 4999)
+							{
+								send_pack.type = CS_deleteAIplayer;
+								send_pack.team = 1;
+								send_pack.id = mainroom.blue[1].id;
+								SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							}
 						}
 					}
 				}
 				else if (((LOWORD(lParam) > d3dViewport.Width / 100 * 12.18&& LOWORD(lParam) < d3dViewport.Width / 100 * 48.75) && (HIWORD(lParam) > d3dViewport.Height / 100 * 42.08 && HIWORD(lParam) < d3dViewport.Height / 100 * 49.79)))
 				{
-					if (!mainroom.red[2].active)
-					{
-						send_pack.team = 0;
-						send_pack.type = CS_addAIplayer;
-
-						SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
-						redai = 2;
-					}
-					else
-					{
-						if (mainroom.red[2].id > 4999)
+					if (mainroom.start == false) {
+						if (!mainroom.red[2].active)
 						{
-							send_pack.type = CS_deleteAIplayer;
 							send_pack.team = 0;
-							send_pack.id = mainroom.red[2].id;
+							send_pack.type = CS_addAIplayer;
+
 							SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							redai = 2;
+						}
+						else
+						{
+							if (mainroom.red[2].id > 4999)
+							{
+								send_pack.type = CS_deleteAIplayer;
+								send_pack.team = 0;
+								send_pack.id = mainroom.red[2].id;
+								SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							}
 						}
 					}
 				}
 				else if (((LOWORD(lParam) > d3dViewport.Width / 100 * 51.09&& LOWORD(lParam) < d3dViewport.Width / 100 * 87.5) && (HIWORD(lParam) > d3dViewport.Height / 100 * 42.08 && HIWORD(lParam) < d3dViewport.Height / 100 * 49.79)))
 				{
-					if (!mainroom.blue[2].active)
-					{
-						send_pack.team = 1;
-						send_pack.type = CS_addAIplayer;
-
-						SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
-						blueai = 2;
-					}
-					else
-					{
-						if (mainroom.blue[2].id > 4999)
+					if (mainroom.start == false) {
+						if (!mainroom.blue[2].active)
 						{
-							send_pack.type = CS_deleteAIplayer;
 							send_pack.team = 1;
-							send_pack.id = mainroom.blue[2].id;
+							send_pack.type = CS_addAIplayer;
+
 							SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							blueai = 2;
+						}
+						else
+						{
+							if (mainroom.blue[2].id > 4999)
+							{
+								send_pack.type = CS_deleteAIplayer;
+								send_pack.team = 1;
+								send_pack.id = mainroom.blue[2].id;
+								SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							}
 						}
 					}
 				}
 				else if (((LOWORD(lParam) > d3dViewport.Width / 100 * 12.18&& LOWORD(lParam) < d3dViewport.Width / 100 * 48.75) && (HIWORD(lParam) > d3dViewport.Height / 100 * 51.87 && HIWORD(lParam) < d3dViewport.Height / 100 * 58.75)))
 				{
-					if (!mainroom.red[3].active)
-					{
-						send_pack.team = 0;
-						send_pack.type = CS_addAIplayer;
-
-						SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
-						redai = 3;
-					}
-					else
-					{
-						if (mainroom.red[3].id > 4999)
+					if (mainroom.start == false) {
+						if (!mainroom.red[3].active)
 						{
-							send_pack.type = CS_deleteAIplayer;
 							send_pack.team = 0;
-							send_pack.id = mainroom.red[3].id;
+							send_pack.type = CS_addAIplayer;
+
 							SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							redai = 3;
+						}
+						else
+						{
+							if (mainroom.red[3].id > 4999)
+							{
+								send_pack.type = CS_deleteAIplayer;
+								send_pack.team = 0;
+								send_pack.id = mainroom.red[3].id;
+								SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							}
 						}
 					}
 				}
 				else if (((LOWORD(lParam) > d3dViewport.Width / 100 * 51.09&& LOWORD(lParam) < d3dViewport.Width / 100 * 87.5) && (HIWORD(lParam) > d3dViewport.Height / 100 * 51.87 && HIWORD(lParam) < d3dViewport.Height / 100 * 58.75)))
 				{
-					if (!mainroom.blue[3].active)
-					{
-						send_pack.team = 1;
-						send_pack.type = CS_addAIplayer;
-
-						SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
-						blueai = 3;
-					}
-					else
-					{
-						if (mainroom.blue[3].id > 4999)
+					if (mainroom.start == false) {
+						if (!mainroom.blue[3].active)
 						{
-							send_pack.type = CS_deleteAIplayer;
 							send_pack.team = 1;
-							send_pack.id = mainroom.blue[3].id;
+							send_pack.type = CS_addAIplayer;
+
 							SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							blueai = 3;
+						}
+						else
+						{
+							if (mainroom.blue[3].id > 4999)
+							{
+								send_pack.type = CS_deleteAIplayer;
+								send_pack.team = 1;
+								send_pack.id = mainroom.blue[3].id;
+								SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							}
 						}
 					}
 				}
 				else if (((LOWORD(lParam) > d3dViewport.Width / 100 * 12.18&& LOWORD(lParam) < d3dViewport.Width / 100 * 48.75) && (HIWORD(lParam) > d3dViewport.Height / 100 * 61.87 && HIWORD(lParam) < d3dViewport.Height / 100 * 69.16)))
 				{
-					if (!mainroom.red[4].active)
-					{
-						send_pack.team = 0;
-						send_pack.type = CS_addAIplayer;
-
-						SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
-						redai = 4;
-					}
-					else
-					{
-						if (mainroom.red[4].id > 4999)
+					if (mainroom.start == false) {
+						if (!mainroom.red[4].active)
 						{
-							send_pack.type = CS_deleteAIplayer;
 							send_pack.team = 0;
-							send_pack.id = mainroom.red[4].id;
+							send_pack.type = CS_addAIplayer;
+
 							SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							redai = 4;
+						}
+						else
+						{
+							if (mainroom.red[4].id > 4999)
+							{
+								send_pack.type = CS_deleteAIplayer;
+								send_pack.team = 0;
+								send_pack.id = mainroom.red[4].id;
+								SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							}
 						}
 					}
 				}
 				else if (((LOWORD(lParam) > d3dViewport.Width / 100 * 51.09&& LOWORD(lParam) < d3dViewport.Width / 100 * 87.5) && (HIWORD(lParam) > d3dViewport.Height / 100 * 61.87 && HIWORD(lParam) < d3dViewport.Height / 100 * 69.16)))
 				{
-					if (!mainroom.blue[4].active)
-					{
-						send_pack.team = 1;
-						send_pack.type = CS_addAIplayer;
-
-						SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
-						blueai = 4;
-					}
-					else
-					{
-						if (mainroom.blue[4].id > 4999)
+					if (mainroom.start == false) {
+						if (!mainroom.blue[4].active)
 						{
-							send_pack.type = CS_deleteAIplayer;
 							send_pack.team = 1;
-							send_pack.id = mainroom.blue[4].id;
+							send_pack.type = CS_addAIplayer;
+
 							SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							blueai = 4;
+						}
+						else
+						{
+							if (mainroom.blue[4].id > 4999)
+							{
+								send_pack.type = CS_deleteAIplayer;
+								send_pack.team = 1;
+								send_pack.id = mainroom.blue[4].id;
+								SendPacket(reinterpret_cast<CHAR*>(&send_pack), send_pack.size);
+							}
 						}
 					}
 				}
@@ -885,7 +917,6 @@ void CGameFramework::OnProcessingKeyboardMessage(HWND hWnd, UINT nMessageID, WPA
 				cs_packet_roominfor my_packet;
 				my_packet.size = sizeof(cs_packet_roominfor);
 				DWORD iobyte;
-				
 				my_packet.type = CS_exitroom;
 				my_packet.roomnum = mainroom.num;
 				SendPacket(reinterpret_cast<CHAR*>(&my_packet), my_packet.size);
@@ -951,58 +982,62 @@ void ProcessPacket(char *ptr)
 	case SC_PUT_PLAYER:
 	{
 		sc_packet_put_player *my_packet = reinterpret_cast<sc_packet_put_player *>(ptr);
-		if (mainroom.start == false) {
-			int id = my_packet->id;
-			if (first_time) {
-				printf("접속성공");
-				first_time = false;
-				g_myid = id;
+		int id = my_packet->id;
+		if (first_time) {
+			printf("접속성공");
+			first_time = false;
+			g_myid = id;
+		}
+		if (my_packet->team == 0) {
+			for (int i = 0; i < 5; i++)
+			{
+				if (mainroom.red[i].id == my_packet->id)
+				{
+					if (my_packet->id == g_myid)
+					{
+						m_pPlayer->m_d3dxvLook.x = 0;
+						m_pPlayer->m_d3dxvLook.y = 0;
+						m_pPlayer->m_d3dxvLook.z = 1;
+						m_pPlayer->m_d3dxvRight.x = 1;
+						m_pPlayer->m_d3dxvRight.y = 0;
+						m_pPlayer->m_d3dxvRight.z = 0;
+						m_pPlayer->SetPosition(D3DXVECTOR3(my_packet->mtx._41, 415, my_packet->mtx._43));
+					
+					}
+					else
+					{
+						m_ppInstancingShaders[7]->m_ppObjects[i]->SetPosition(my_packet->mtx._41, 415, my_packet->mtx._43);
+					}
+					break;
+				}
 			}
 		}
 		else {
-			if(my_packet->team==0)
-				for (int i = 0; i < 5; i++)
+			for (int i = 0; i < 5; i++)
+			{
+				if (mainroom.blue[i].id == my_packet->id)
 				{
-					if (mainroom.red[i].id == my_packet->id)
+					if (my_packet->id == g_myid)
 					{
-						if (my_packet->id == g_myid)
-						{
-
-							m_pPlayer->SetPosition(D3DXVECTOR3(my_packet->mtx._41, my_packet->mtx._42, my_packet->mtx._43));
-						}
-						else
-						{
-							m_ppInstancingShaders[7]->m_ppObjects[i]->SetPosition(D3DXVECTOR3(my_packet->mtx._41, my_packet->mtx._42, my_packet->mtx._43));
-						}
-						break;
+						m_pPlayer->SetPosition(D3DXVECTOR3(my_packet->mtx._41, 415, my_packet->mtx._43));
+						m_pPlayer->m_d3dxvLook.x = 0;
+						m_pPlayer->m_d3dxvLook.y = 0;
+						m_pPlayer->m_d3dxvLook.z = -1;
+						m_pPlayer->m_d3dxvRight.x = -1;
+						m_pPlayer->m_d3dxvRight.y = 0;
+						m_pPlayer->m_d3dxvRight.z = 0;
 					}
-				}
-			else {
-				for (int i = 0; i < 5; i++)
-				{
-					if (mainroom.red[i].id == my_packet->id)
+					else
 					{
-						if (my_packet->id == g_myid)
-						{
-							m_pPlayer->SetPosition(D3DXVECTOR3(my_packet->mtx._41, my_packet->mtx._42, my_packet->mtx._43));
-
-						}
-						else
-						{
-						//	m_ppInstancingShaders[8]->m_ppObjects[i]->SetPosition(D3DXVECTOR3(my_packet->mtx._41, my_packet->mtx._42, my_packet->mtx._43));
-						}
-						break;
-
+						m_ppInstancingShaders[8]->m_ppObjects[i]->SetPosition(my_packet->mtx._41, 415, my_packet->mtx._43);
 					}
-
+					break;
 
 				}
+
 			}
-
+		
 		}
-		
-		
-
 		break;
 	}
 	case SC_POS:
@@ -1017,6 +1052,7 @@ void ProcessPacket(char *ptr)
 				{
 					if (my_packet->id == g_myid)
 					{
+						m_pCamera->Rotate(0, 5, 0);
 						m_pPlayer->SetPosition(D3DXVECTOR3(my_packet->mtx._41, 415, my_packet->mtx._43));
 					
 					}
@@ -1158,6 +1194,7 @@ void ProcessPacket(char *ptr)
 						}
 						
 						m_pBullets[i][packet_bullet->index]->SetPosition(packet_bullet->x, packet_bullet->y, packet_bullet->z);
+						
 						if (packet_bullet->x == 4419)
 						{
 					
@@ -1267,7 +1304,7 @@ void ProcessPacket(char *ptr)
 		m_titleObjects[10]->titlevisivle = false;
 		mainroom.start = true;
 		NowScene = 0;
-
+		
 		break;
 	}
 	case CS_roomnumveiw:
@@ -1358,43 +1395,46 @@ void ProcessPacket(char *ptr)
 	case CS_exitroom:
 	{
 		cs_packet_roomveiw *my_packet = reinterpret_cast<cs_packet_roomveiw *>(ptr);
+		
 		if (my_packet->count == 0) {
 			for (int i = 0; i < 10; i++) {
 				mainroom.player[i].active = false;
 			}
 		}
-		for (int i = 0; i < 10; i++)
-		{
-			if (mainroom.player[i].active)
+		else {
+			for (int i = 0; i < 10; i++)
 			{
-
-				if (mainroom.player[i].id == my_packet->num)
+				if (mainroom.player[i].active)
 				{
+					
+					if (mainroom.player[i].id == my_packet->num)
+					{
 
-					mainroom.player[i].active = false;
-					for (int c = 0; c < 5; c++)
-					{
-						if (mainroom.red[c].id == my_packet->num)
+						mainroom.player[i].active = false;
+						for (int c = 0; c < 5; c++)
 						{
-							mainroom.red[c].active = false;
-							mainroom.red[c].id = -1;
-							break;
+							if (mainroom.red[c].id == my_packet->num)
+							{
+								mainroom.red[c].active = false;
+								mainroom.red[c].id = -1;
+								break;
+							}
 						}
-					}
-					for (int c = 0; c < 5; c++)
-					{
-						if (mainroom.blue[c].id == my_packet->num)
+						for (int c = 0; c < 5; c++)
 						{
-							mainroom.blue[c].active = false;
-							mainroom.blue[c].id = -1;
-							break;
+							if (mainroom.blue[c].id == my_packet->num)
+							{
+								mainroom.blue[c].active = false;
+								mainroom.blue[c].id = -1;
+								break;
+							}
 						}
+						//mainroom.player[i].id = -1;
+						break;
 					}
-					//mainroom.player[i].id = -1;
-					break;
 				}
-			}
 
+			}
 		}
 		//나를제외한 나머지 리스트에서 제거
 		break;

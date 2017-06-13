@@ -56,28 +56,30 @@ npciocp.cpp(344): warning C4244: '=': 'float'에서 'WORD'(으)로 변환하면�
 npciocp.cpp(363): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 npciocp.cpp(364): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 npciocp.cpp(511): warning C4800: 'BOOL': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
-npciocp.cpp(763): warning C4244: '=': '__int64'에서 'WORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-npciocp.cpp(790): warning C4244: '=': '__int64'에서 'WORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-npciocp.cpp(764): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 '__int64'입니다.
-  npciocp.cpp(764): note: 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
-  npciocp.cpp(764): note: 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+npciocp.cpp(823): warning C4244: '=': '__int64'에서 'WORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+npciocp.cpp(850): warning C4244: '=': '__int64'에서 'WORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+npciocp.cpp(824): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 '__int64'입니다.
+  npciocp.cpp(824): note: 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+  npciocp.cpp(824): note: 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
 npciocp.cpp(526): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
 npciocp.cpp(554): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
-npciocp.cpp(576): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
-npciocp.cpp(595): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
 npciocp.cpp(623): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
-npciocp.cpp(647): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
-npciocp.cpp(691): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
-npciocp.cpp(714): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
-npciocp.cpp(727): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
-npciocp.cpp(754): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
-npciocp.cpp(782): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
-npciocp.cpp(1360): warning C4244: '=': 'DWORD'에서 'WORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+npciocp.cpp(642): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
+npciocp.cpp(684): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
+npciocp.cpp(676): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
+npciocp.cpp(707): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
+npciocp.cpp(751): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
+npciocp.cpp(774): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
+npciocp.cpp(787): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
+npciocp.cpp(814): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
+npciocp.cpp(842): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
+npciocp.cpp(1404): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+npciocp.cpp(1405): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 LINK : warning LNK4098: 'LIBCMT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
   코드를 생성하고 있습니다.
-  2 of 616 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+  59 of 617 functions ( 9.6%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    16 functions had inline decision re-evaluated but remain unchanged
+    11 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
-  ConsoleApplication2.vcxproj -> E:\재활공부\[2016 게임서버 2반 최종발표] 2011180001 강신영\세번째 연동서버 6-10최신\Release\ConsoleApplication2.exe
-  ConsoleApplication2.vcxproj -> E:\재활공부\[2016 게임서버 2반 최종발표] 2011180001 강신영\세번째 연동서버 6-10최신\Release\ConsoleApplication2.pdb (Full PDB)
+  ConsoleApplication2.vcxproj -> C:\Users\a6359\Desktop\rangerbattle\중간발표덤클서버\Release\ConsoleApplication2.exe
+  ConsoleApplication2.vcxproj -> C:\Users\a6359\Desktop\rangerbattle\중간발표덤클서버\Release\ConsoleApplication2.pdb (Full PDB)
