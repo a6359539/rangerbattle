@@ -115,8 +115,6 @@ string pathFind(const int & xStart, const int & yStart, const int & xFinish, con
 		{
 			xdx = x + dx[i]; ydy = y + dy[i];
 
-			//if (!(xdx<0 || xdx>n - 1 || ydy<0 || ydy>m - 1 || map[xdx][ydy] == 1
-			//	|| closed_nodes_map[xdx][ydy] == 1))
 			if (!(xdx<0 || xdx>n - 1 || ydy<0 || ydy>m - 1 || map[xdx][ydy] == 1
 				|| closed_nodes_map[xdx][ydy] == 1))
 			{

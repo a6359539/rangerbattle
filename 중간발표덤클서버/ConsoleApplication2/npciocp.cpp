@@ -1401,51 +1401,71 @@ void roomrate(int key)
 	{
 		if (Room[key].redminion[i].is_alive)
 		{
-			int xA = Room[key].redminion[i].object.m_d3dxmtxLocal._41;
-			int yA = Room[key].redminion[i].object.m_d3dxmtxLocal._43;
+			static string route;
+			static int xA = Room[key].redminion[i].object.m_d3dxmtxLocal._41;
+			static int yA = Room[key].redminion[i].object.m_d3dxmtxLocal._43;
 			indextonode(xA, yA);
 
-			int xB, yB;
+			static int xB, yB;
 			if (0 == Room[key].redminion[i].line)
 			{
 				if (xA == 3 && yA == 5) Room[key].redminion[i].flagline = 1;
 				if (xA == 3 && yA == 14) Room[key].redminion[i].flagline = 2;
-				if (0 == Room[key].redminion[i].flagline)
+				if (0 == Room[key].redminion[i].flagline && route.length() == 0)
 				{
 					xB = 300, yB = 500;
 					indextonode(xB, yB);
+					route = pathFind(xA, yA, xB, yB);
 				}
-				else if (1 == Room[key].redminion[i].flagline)
+				else if (1 == Room[key].redminion[i].flagline && route.length() == 0)
 				{
 					xB = 300, yB = 1400;
 					indextonode(xB, yB);
+					route = pathFind(xA, yA, xB, yB);
 				}
-				else if (2 == Room[key].redminion[i].flagline)
+				else if (2 == Room[key].redminion[i].flagline && route.length() == 0)
 				{
 					xB = 1000, yB = 1800;
 					indextonode(xB, yB);
+					route = pathFind(xA, yA, xB, yB);
 				}
 			}
 			else if (1 == Room[key].redminion[i].line)
 			{
 				if (xA == 17 && yA == 5) Room[key].redminion[i].flagline = 1;
 				if (xA == 17 && yA == 14) Room[key].redminion[i].flagline = 2;
-				if (0 == Room[key].redminion[i].flagline)
+				if (0 == Room[key].redminion[i].flagline && route.length() == 0)
 				{
 					xB = 1700, yB = 500;
 					indextonode(xB, yB);
+					route = pathFind(xA, yA, xB, yB);
 				}
-				else if (1 == Room[key].redminion[i].flagline)
+				else if (1 == Room[key].redminion[i].flagline && route.length() == 0)
 				{
 					xB = 1700, yB = 1400;
 					indextonode(xB, yB);
+					route = pathFind(xA, yA, xB, yB);
 				}
-				else if (2 == Room[key].redminion[i].flagline)
+				else if (2 == Room[key].redminion[i].flagline && route.length() == 0)
 				{
 					xB = 1000, yB = 1800;
 					indextonode(xB, yB);
+					route = pathFind(xA, yA, xB, yB);
 				}
 			}
+			if (route.length() > 0)
+			{
+				int j; char c;
+				c = route.at(0);
+				j = atoi(&c);
+				route.erase(0, 1);
+
+				if (0 == j) Room[key].redminion[i].object.m_d3dxmtxLocal._41 += 1;
+				if (1 == j) Room[key].redminion[i].object.m_d3dxmtxLocal._43 += 1;
+				if (2 == j) Room[key].redminion[i].object.m_d3dxmtxLocal._41 -= 1;
+				if (3 == j) Room[key].redminion[i].object.m_d3dxmtxLocal._43 -= 1;
+			}
+
 			/*
 			for (auto j : Room[key].clients_list)
 			{
