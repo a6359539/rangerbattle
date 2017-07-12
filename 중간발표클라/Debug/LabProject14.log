@@ -1,4 +1,134 @@
-﻿  GameFramework.cpp
+﻿  stdafx.cpp
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50092): note: 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50101): note: 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50110): note: 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50119): note: 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50128): note: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50137): note: 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50146): note: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50161): note: 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50170): note: 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50179): note: 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50188): note: 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50197): note: 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50206): note: 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50216): note: 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50225): note: 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50235): note: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50244): note: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50254): note: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50263): note: 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50272): note: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50282): note: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50291): note: 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50469): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50478): note: 'D3D11_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50488): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50497): note: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50445): note: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50454): note: 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\stdafx.cpp(17): warning C4477: 'swprintf_s' : 서식 문자열 '%s'에 'wchar_t *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+  d:\asg\rangerbattle\rangerbattle\중간발표클라\stdafx.cpp(17): note: 서식 문자열에서 '%hs'을(를) 사용하는 것이 좋습니다.
+  d:\asg\rangerbattle\rangerbattle\중간발표클라\stdafx.cpp(17): note: 서식 문자열에서 '%Ts'을(를) 사용하는 것이 좋습니다.
+  d:\asg\rangerbattle\rangerbattle\중간발표클라\stdafx.cpp(17): note: C99 표준 의미 체계가 필요한 경우 _CRT_STDIO_ISO_WIDE_SPECIFIERS를 정의하는 것이 좋습니다.
+  TitileScene.cpp
+d:\asg\rangerbattle\rangerbattle\중간발표클라\titilescene.cpp(139): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\titilescene.cpp(146): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\titilescene.cpp(153): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\titilescene.cpp(168): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\titilescene.cpp(175): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\titilescene.cpp(203): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\titilescene.cpp(210): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\titilescene.cpp(217): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\titilescene.cpp(224): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\titilescene.cpp(231): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+  Timer.cpp
+  Shader.cpp
+d:\asg\rangerbattle\rangerbattle\중간발표클라\shader.cpp(718): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\shader.cpp(732): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Scene.cpp
+d:\asg\rangerbattle\rangerbattle\중간발표클라\scene.cpp(76): warning C4474: 'swprintf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  d:\asg\rangerbattle\rangerbattle\중간발표클라\scene.cpp(76): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\scene.cpp(640): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Player.cpp
+  Object.cpp
+d:\asg\rangerbattle\rangerbattle\중간발표클라\object.cpp(573): warning C4305: '인수': 'double'에서 'FLOAT'(으)로 잘립니다.
+  Mesh.cpp
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1730): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1968): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1969): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1970): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1975): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1976): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1978): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1982): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1983): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1985): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1989): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1990): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1991): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1994): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1995): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1996): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1997): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1998): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(1999): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2008): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2009): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2010): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2011): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2012): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2013): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2016): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2017): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2021): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2023): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2024): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2027): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2030): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2031): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2034): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2037): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2038): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2042): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2235): warning C4838: 'float'에서 'D3DXCOLOR'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2235): warning C4244: '인수': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2296): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2297): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2354): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2492): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2642): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2655): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\mesh.cpp(2706): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  LabProject14.cpp
 c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(59): warning C4005: 'D2DERR_WRONG_STATE': 매크로 재정의
   c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50511): note: 'D2DERR_WRONG_STATE'의 이전 정의를 참조하십시오.
 c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(64): warning C4005: 'D2DERR_NOT_INITIALIZED': 매크로 재정의
@@ -71,57 +201,148 @@ c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4988):
   c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50966): note: 'DWRITE_E_FONTCOLLECTIONOBSOLETE'의 이전 정의를 참조하십시오.
 c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4993): warning C4005: 'DWRITE_E_ALREADYREGISTERED': 매크로 재정의
   c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50975): note: 'DWRITE_E_ALREADYREGISTERED'의 이전 정의를 참조하십시오.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(194): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  GameFramework.cpp
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(59): warning C4005: 'D2DERR_WRONG_STATE': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50511): note: 'D2DERR_WRONG_STATE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(64): warning C4005: 'D2DERR_NOT_INITIALIZED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50520): note: 'D2DERR_NOT_INITIALIZED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(69): warning C4005: 'D2DERR_UNSUPPORTED_OPERATION': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50529): note: 'D2DERR_UNSUPPORTED_OPERATION'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(74): warning C4005: 'D2DERR_SCANNER_FAILED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50538): note: 'D2DERR_SCANNER_FAILED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(79): warning C4005: 'D2DERR_SCREEN_ACCESS_DENIED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50547): note: 'D2DERR_SCREEN_ACCESS_DENIED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(84): warning C4005: 'D2DERR_DISPLAY_STATE_INVALID': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50556): note: 'D2DERR_DISPLAY_STATE_INVALID'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(89): warning C4005: 'D2DERR_ZERO_VECTOR': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50565): note: 'D2DERR_ZERO_VECTOR'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(97): warning C4005: 'D2DERR_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50574): note: 'D2DERR_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(103): warning C4005: 'D2DERR_DISPLAY_FORMAT_NOT_SUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50583): note: 'D2DERR_DISPLAY_FORMAT_NOT_SUPPORTED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(108): warning C4005: 'D2DERR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50592): note: 'D2DERR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(113): warning C4005: 'D2DERR_NO_HARDWARE_DEVICE': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50601): note: 'D2DERR_NO_HARDWARE_DEVICE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(119): warning C4005: 'D2DERR_RECREATE_TARGET': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50610): note: 'D2DERR_RECREATE_TARGET'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(124): warning C4005: 'D2DERR_TOO_MANY_SHADER_ELEMENTS': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50619): note: 'D2DERR_TOO_MANY_SHADER_ELEMENTS'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(129): warning C4005: 'D2DERR_SHADER_COMPILE_FAILED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50628): note: 'D2DERR_SHADER_COMPILE_FAILED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(134): warning C4005: 'D2DERR_MAX_TEXTURE_SIZE_EXCEEDED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50637): note: 'D2DERR_MAX_TEXTURE_SIZE_EXCEEDED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(139): warning C4005: 'D2DERR_UNSUPPORTED_VERSION': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50646): note: 'D2DERR_UNSUPPORTED_VERSION'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(144): warning C4005: 'D2DERR_BAD_NUMBER': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50655): note: 'D2DERR_BAD_NUMBER'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(149): warning C4005: 'D2DERR_WRONG_FACTORY': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50664): note: 'D2DERR_WRONG_FACTORY'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(154): warning C4005: 'D2DERR_LAYER_ALREADY_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50673): note: 'D2DERR_LAYER_ALREADY_IN_USE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(159): warning C4005: 'D2DERR_POP_CALL_DID_NOT_MATCH_PUSH': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50682): note: 'D2DERR_POP_CALL_DID_NOT_MATCH_PUSH'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(164): warning C4005: 'D2DERR_WRONG_RESOURCE_DOMAIN': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50691): note: 'D2DERR_WRONG_RESOURCE_DOMAIN'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(169): warning C4005: 'D2DERR_PUSH_POP_UNBALANCED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50700): note: 'D2DERR_PUSH_POP_UNBALANCED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(174): warning C4005: 'D2DERR_RENDER_TARGET_HAS_LAYER_OR_CLIPRECT': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50709): note: 'D2DERR_RENDER_TARGET_HAS_LAYER_OR_CLIPRECT'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(179): warning C4005: 'D2DERR_INCOMPATIBLE_BRUSH_TYPES': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50718): note: 'D2DERR_INCOMPATIBLE_BRUSH_TYPES'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(184): warning C4005: 'D2DERR_WIN32_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50727): note: 'D2DERR_WIN32_ERROR'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(189): warning C4005: 'D2DERR_TARGET_NOT_GDI_COMPATIBLE': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50736): note: 'D2DERR_TARGET_NOT_GDI_COMPATIBLE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(194): warning C4005: 'D2DERR_TEXT_EFFECT_IS_WRONG_TYPE': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50745): note: 'D2DERR_TEXT_EFFECT_IS_WRONG_TYPE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(201): warning C4005: 'D2DERR_TEXT_RENDERER_NOT_RELEASED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50754): note: 'D2DERR_TEXT_RENDERER_NOT_RELEASED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d2derr.h(206): warning C4005: 'D2DERR_EXCEEDS_MAX_BITMAP_SIZE': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50763): note: 'D2DERR_EXCEEDS_MAX_BITMAP_SIZE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4962): warning C4005: 'DWRITE_E_FILEFORMAT': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50921): note: 'DWRITE_E_FILEFORMAT'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4967): warning C4005: 'DWRITE_E_UNEXPECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50930): note: 'DWRITE_E_UNEXPECTED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4972): warning C4005: 'DWRITE_E_NOFONT': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50939): note: 'DWRITE_E_NOFONT'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4978): warning C4005: 'DWRITE_E_FILENOTFOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50948): note: 'DWRITE_E_FILENOTFOUND'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4983): warning C4005: 'DWRITE_E_FILEACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50957): note: 'DWRITE_E_FILEACCESS'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4988): warning C4005: 'DWRITE_E_FONTCOLLECTIONOBSOLETE': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50966): note: 'DWRITE_E_FONTCOLLECTIONOBSOLETE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4993): warning C4005: 'DWRITE_E_ALREADYREGISTERED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50975): note: 'DWRITE_E_ALREADYREGISTERED'의 이전 정의를 참조하십시오.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(194): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): note: 'inet_addr' 선언을 참조하십시오.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(197): warning C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(197): warning C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2699): note: 'WSAAsyncSelect' 선언을 참조하십시오.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(376): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(403): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(486): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(802): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(919): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(1658): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(376): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(403): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(486): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(802): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(919): warning C4101: 'iobyte' :참조되지 않은 지역 변수입니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(1658): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(240): note: 'freopen' 선언을 참조하십시오.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(1659): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(1659): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(240): note: 'freopen' 선언을 참조하십시오.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(1660): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(1660): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(240): note: 'freopen' 선언을 참조하십시오.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(1844): warning C4244: '=': 'DWORD'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2006): warning C4305: '인수': 'double'에서 'FLOAT'(으)로 잘립니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2046): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2048): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2061): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2063): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2096): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2099): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2103): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2107): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2110): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2114): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2118): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2121): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2125): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2129): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2132): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2136): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2140): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2143): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2147): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2151): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2154): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2158): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2176): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2177): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2180): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2181): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2184): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2185): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2188): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2189): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2192): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2193): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2196): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2197): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\a6359\desktop\rangerbattle\중간발표클라\gameframework.cpp(2202): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  LabProject14.vcxproj -> C:\Users\a6359\Desktop\rangerbattle\중간발표클라\Debug\LabProject14.exe
-  LabProject14.vcxproj -> C:\Users\a6359\Desktop\rangerbattle\중간발표클라\Debug\LabProject14.pdb (Full PDB)
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(1844): warning C4244: '=': 'DWORD'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2006): warning C4305: '인수': 'double'에서 'FLOAT'(으)로 잘립니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2046): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2048): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2061): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2063): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2096): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2099): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2103): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2107): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2110): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2114): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2118): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2121): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2125): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2129): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2132): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2136): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2140): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2143): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2147): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2151): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2154): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2158): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2176): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2177): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2180): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2181): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2184): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2185): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2188): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2189): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2192): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2193): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2196): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2197): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\asg\rangerbattle\rangerbattle\중간발표클라\gameframework.cpp(2202): warning C4244: '인수': 'double'에서 '_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Font.cpp
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4962): warning C4005: 'DWRITE_E_FILEFORMAT': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50921): note: 'DWRITE_E_FILEFORMAT'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4967): warning C4005: 'DWRITE_E_UNEXPECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50930): note: 'DWRITE_E_UNEXPECTED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4972): warning C4005: 'DWRITE_E_NOFONT': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50939): note: 'DWRITE_E_NOFONT'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4978): warning C4005: 'DWRITE_E_FILENOTFOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50948): note: 'DWRITE_E_FILENOTFOUND'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4983): warning C4005: 'DWRITE_E_FILEACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50957): note: 'DWRITE_E_FILEACCESS'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4988): warning C4005: 'DWRITE_E_FONTCOLLECTIONOBSOLETE': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50966): note: 'DWRITE_E_FONTCOLLECTIONOBSOLETE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dwrite.h(4993): warning C4005: 'DWRITE_E_ALREADYREGISTERED': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50975): note: 'DWRITE_E_ALREADYREGISTERED'의 이전 정의를 참조하십시오.
+  Camera.cpp
+  코드를 생성하고 있습니다...
+  LINK : D:\ASG\RangerBattle\rangerbattle\중간발표클라\Debug\LabProject14.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+  LabProject14.vcxproj -> D:\ASG\RangerBattle\rangerbattle\중간발표클라\Debug\LabProject14.exe
+  LabProject14.vcxproj -> D:\ASG\RangerBattle\rangerbattle\중간발표클라\Debug\LabProject14.pdb (Full PDB)
