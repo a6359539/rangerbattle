@@ -151,6 +151,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="A_STAR.cpp" />
+    <ClCompile Include="A_STAR_TEST.cpp" />
     <ClCompile Include="d3dfun.cpp" />
     <ClCompile Include="npciocp.cpp" />
   </ItemGroup>
