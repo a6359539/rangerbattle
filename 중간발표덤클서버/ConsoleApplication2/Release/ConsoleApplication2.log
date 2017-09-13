@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  A_STAR.cpp
 LINK : warning LNK4098: 'LIBCMT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
   코드를 생성하고 있습니다.
@@ -7,3 +8,7 @@ LINK : warning LNK4098: 'LIBCMT' defaultlib가 다른 라이브러리와 충돌�
   코드를 생성했습니다.
   ConsoleApplication2.vcxproj -> C:\Users\a6359\Desktop\rangerbattle\중간발표덤클서버\Release\ConsoleApplication2.exe
   ConsoleApplication2.vcxproj -> C:\Users\a6359\Desktop\rangerbattle\중간발표덤클서버\Release\ConsoleApplication2.pdb (Full PDB)
+=======
+﻿  ConsoleApplication2.vcxproj -> D:\ASG\RangerBattle\rangerbattle\중간발표덤클서버\Release\ConsoleApplication2.exe
+  ConsoleApplication2.vcxproj -> D:\ASG\RangerBattle\rangerbattle\중간발표덤클서버\Release\ConsoleApplication2.pdb (Full PDB)
+>>>>>>> cd8d8a20682685db3245a26de2025fdd8e2f5d57
