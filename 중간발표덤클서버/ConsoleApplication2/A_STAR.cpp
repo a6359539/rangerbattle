@@ -9,16 +9,16 @@ node::node(int xp, int yp, int d, int p)
 	}
 	/*for (int x = 5; x < 15; x++)
 	{
-		map[x][5] = 1;
-		map[x][14] = 1;
+	map[x][5] = 1;
+	map[x][14] = 1;
 	}*/
 	/*for (int y = 3; y < 5; y++)
 	{
-		map[9][y] = 1;
+	map[9][y] = 1;
 	}
 	for (int y = 14; y < 17; y++)
 	{
-		map[9][y] = 1;
+	map[9][y] = 1;
 	}*/
 }
 
