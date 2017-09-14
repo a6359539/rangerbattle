@@ -1,0 +1,196 @@
+﻿  bits.c
+  cb_search.c
+c:\users\a6359\documents\카카오톡 받은 파일\labproject142 (3)\speex-1.2rc2\libspeex\math_approx.h(57): warning C4244: 'return': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a6359\documents\카카오톡 받은 파일\labproject142 (3)\speex-1.2rc2\libspeex\math_approx.h(323): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a6359\documents\카카오톡 받은 파일\labproject142 (3)\speex-1.2rc2\libspeex\cb_search_sse.h(71): warning C4244: '함수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\cb_search.c(199): warning C4244: '=': 'double'에서 'spx_sig_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\cb_search.c(220): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\cb_search.c(445): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\cb_search.c(499): warning C4244: '=': 'double'에서 'spx_sig_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\cb_search.c(574): warning C4244: '+=': 'double'에서 'spx_sig_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  exc_10_16_table.c
+  exc_10_32_table.c
+  exc_20_32_table.c
+  exc_5_256_table.c
+  exc_5_64_table.c
+  exc_8_128_table.c
+  filters.c
+c:\users\a6359\documents\카카오톡 받은 파일\labproject142 (3)\speex-1.2rc2\libspeex\math_approx.h(57): warning C4244: 'return': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a6359\documents\카카오톡 받은 파일\labproject142 (3)\speex-1.2rc2\libspeex\math_approx.h(323): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\filters.c(315): warning C4244: 'return': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\filters.c(749): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\filters.c(750): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\filters.c(751): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\filters.c(781): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\filters.c(782): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\filters.c(803): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\filters.c(804): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\filters.c(806): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\filters.c(807): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  gain_table.c
+  gain_table_lbr.c
+  hexc_10_32_table.c
+  hexc_table.c
+  high_lsp_tables.c
+  lpc.c
+..\..\libspeex\lpc.c(94): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  lsp.c
+c:\users\a6359\documents\카카오톡 받은 파일\labproject142 (3)\speex-1.2rc2\libspeex\math_approx.h(57): warning C4244: 'return': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a6359\documents\카카오톡 받은 파일\labproject142 (3)\speex-1.2rc2\libspeex\math_approx.h(323): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\lsp.c(197): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\lsp.c(336): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\lsp.c(363): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\lsp.c(378): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\lsp.c(632): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  lsp_tables_nb.c
+  ltp.c
+c:\users\a6359\documents\카카오톡 받은 파일\labproject142 (3)\speex-1.2rc2\libspeex\math_approx.h(57): warning C4244: 'return': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a6359\documents\카카오톡 받은 파일\labproject142 (3)\speex-1.2rc2\libspeex\math_approx.h(323): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\ltp.c(484): warning C4244: '*=': 'double'에서 'spx_word32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\ltp.c(485): warning C4244: '*=': 'double'에서 'spx_word32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\ltp.c(486): warning C4244: '*=': 'double'에서 'spx_word32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\ltp.c(497): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\ltp.c(498): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\ltp.c(499): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\ltp.c(643): warning C4244: '=': 'double'에서 'spx_word32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\ltp.c(701): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\ltp.c(702): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\ltp.c(703): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\ltp.c(717): warning C4305: '=': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\ltp.c(719): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\ltp.c(715): warning C4244: '초기화 중': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\ltp.c(794): warning C4305: '=': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\ltp.c(839): warning C4305: '=': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+  modes.c
+..\..\libspeex\modes.c(220): warning C4305: '초기화 중': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\modes.c(241): warning C4305: '초기화 중': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\modes.c(262): warning C4305: '초기화 중': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\modes.c(304): warning C4305: '초기화 중': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\modes.c(325): warning C4305: '초기화 중': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\modes.c(347): warning C4305: '초기화 중': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+  modes_wb.c
+..\..\libspeex\modes_wb.c(202): warning C4305: '초기화 중': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\modes_wb.c(248): warning C4305: '초기화 중': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  nb_celp.c
+c:\users\a6359\documents\카카오톡 받은 파일\labproject142 (3)\speex-1.2rc2\libspeex\math_approx.h(57): warning C4244: 'return': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a6359\documents\카카오톡 받은 파일\labproject142 (3)\speex-1.2rc2\libspeex\math_approx.h(323): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\nb_celp.c(257): warning C4244: '=': 'spx_int32_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\nb_celp.c(518): warning C4305: '함수': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\nb_celp.c(519): warning C4305: '함수': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\nb_celp.c(594): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\nb_celp.c(596): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+..\..\libspeex\nb_celp.c(598): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+..\..\libspeex\nb_celp.c(665): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\nb_celp.c(750): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\nb_celp.c(761): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\nb_celp.c(780): warning C4244: '=': 'double'에서 'spx_word32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\nb_celp.c(1213): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\nb_celp.c(1264): warning C4305: '초기화 중': 'double'에서 'const spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\nb_celp.c(1297): warning C4305: '=': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\nb_celp.c(1307): warning C4244: '함수': 'int'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\nb_celp.c(1318): warning C4305: '함수': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\nb_celp.c(1494): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\nb_celp.c(1518): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\nb_celp.c(1529): warning C4244: '=': 'double'에서 'spx_word32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\nb_celp.c(1616): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\nb_celp.c(1814): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  quant_lsp.c
+..\..\libspeex\quant_lsp.c(83): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(91): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(172): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(176): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(207): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(220): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(225): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(229): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(233): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(237): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(241): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(258): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(261): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(280): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(293): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(298): warning C4244: '+=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(302): warning C4244: '+=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(306): warning C4244: '+=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(337): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(340): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(356): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(371): warning C4244: '=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(376): warning C4244: '+=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\quant_lsp.c(381): warning C4244: '+=': 'double'에서 'spx_lsp_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  sb_celp.c
+c:\users\a6359\documents\카카오톡 받은 파일\labproject142 (3)\speex-1.2rc2\libspeex\math_approx.h(57): warning C4244: 'return': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a6359\documents\카카오톡 받은 파일\labproject142 (3)\speex-1.2rc2\libspeex\math_approx.h(323): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\sb_celp.c(85): warning C4305: '초기화 중': 'double'에서 'const spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\sb_celp.c(88): warning C4305: '초기화 중': 'double'에서 'const spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\sb_celp.c(338): warning C4244: '=': 'spx_int32_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\sb_celp.c(305): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\sb_celp.c(625): warning C4305: '함수': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\sb_celp.c(628): warning C4305: '함수': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\sb_celp.c(649): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\sb_celp.c(651): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+..\..\libspeex\sb_celp.c(653): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+..\..\libspeex\sb_celp.c(663): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\sb_celp.c(675): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\sb_celp.c(698): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\sb_celp.c(780): warning C4305: '함수': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\sb_celp.c(781): warning C4305: '함수': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\sb_celp.c(803): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\sb_celp.c(867): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\sb_celp.c(1341): warning C4305: '함수': 'double'에서 'spx_word16_t'(으)로 잘립니다.
+..\..\libspeex\sb_celp.c(1361): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\sb_celp.c(1371): warning C4244: '=': 'double'에서 'spx_word32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\sb_celp.c(1387): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\sb_celp.c(1428): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  speex.c
+  speex_callbacks.c
+..\..\libspeex\speex_callbacks.c(121): warning C4244: '=': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  speex_header.c
+  stereo.c
+c:\users\a6359\documents\카카오톡 받은 파일\labproject142 (3)\speex-1.2rc2\libspeex\math_approx.h(57): warning C4244: 'return': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a6359\documents\카카오톡 받은 파일\labproject142 (3)\speex-1.2rc2\libspeex\math_approx.h(323): warning C4244: '=': 'double'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\stereo.c(118): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\stereo.c(128): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\stereo.c(135): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\stereo.c(171): warning C4244: '=': 'double'에서 'spx_int16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\stereo.c(196): warning C4244: '=': 'double'에서 'spx_word32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\stereo.c(197): warning C4244: '=': 'double'에서 'spx_word32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\stereo.c(198): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\stereo.c(213): warning C4244: '=': 'double'에서 'spx_word32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\stereo.c(293): warning C4244: '=': 'unsigned int'에서 'spx_word16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\stereo.c(295): warning C4244: '=': 'double'에서 'spx_word32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  vbr.c
+..\..\libspeex\vbr.c(87): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(88): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+..\..\libspeex\vbr.c(94): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(141): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(148): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(149): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(151): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(153): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(169): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(170): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(179): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(180): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(186): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+..\..\libspeex\vbr.c(188): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+..\..\libspeex\vbr.c(190): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+..\..\libspeex\vbr.c(193): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(194): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(203): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(205): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(217): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(218): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(221): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(239): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(246): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(248): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\..\libspeex\vbr.c(251): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  vq.c
+  window.c
+  코드를 생성하고 있습니다...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1369,5): warning MSB8012: TargetPath(C:\Users\a6359\Documents\카카오톡 받은 파일\LabProject142 (3)\speex-1.2rc2\win32\libspeex\.\Debug\libspeex.lib)이(가) Library의 OutputFile 속성 값(C:\Users\a6359\Documents\카카오톡 받은 파일\LabProject142 (3)\speex-1.2rc2\lib\libspeex.lib)과 일치하지 않습니다. 이로 인해 프로젝트가 잘못 빌드될 수 있습니다. 이를 수정하려면 $(OutDir), $(TargetName) 및 $(TargetExt) 속성 값이 %(Lib.OutputFile)에 지정된 값과 일치해야 합니다.
+  libspeex.vcxproj -> C:\Users\a6359\Documents\카카오톡 받은 파일\LabProject142 (3)\speex-1.2rc2\win32\libspeex\.\Debug\libspeex.lib
